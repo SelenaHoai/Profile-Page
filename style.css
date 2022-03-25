@@ -1,46 +1,279 @@
 * {
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .nav {
-    background-color: #333333;
-    color: white;
-    width: 95%;
-    height: 20px;
-    padding: 20px;
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
+  background-color: #333333;
+  color: white;
+  /* width: 90%; */
+  height: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .nav-title {
-    font-size: 30px;
-    font-weight: 300;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .nav-links {
-    font-size: 12px;
-    display: flex;
-    align-items:flex-start;
-    justify-content: space-around;
-    width: 300px;
-}
-
-.btn {
-
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  gap: 20px;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+}
+
+.signout {
+  flex: 1;
+  margin-left: 40px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .btn {
-    background-color:darkturquoise;
-    color: white;
-    box-shadow: 5px 5px black;
-    border: none;
+  background-color: darkturquoise;
+  color: white;
+  box-shadow: 5px 5px black;
+  border: none;
+}
+
+.firstblock {
+  display: block;
+}
+
+.container1 {
+  height: 300px;
+  width: 30%;
+  margin-left: 15%;
+  /* margin-right:auto; */
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.tealbar {
+  background-color: teal;
+  height: 100px;
+}
+
+.name {
+  background-color: white;
+  border-style: solid;
+  border-color: gray;
+  border-top: none;
+  height: 200px;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-weight: 200;
+  color: black;
+  padding: 20px;
+}
+
+#usercircle {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 55px;
+  background: white;
+  padding: 2px;
+  position: absolute;
+  top: 180px;
+}
+
+#marker {
+  height: 20px;
+  width: 15px;
+}
+
+#gear {
+  height: 20px;
+  width: 20px;
+}
+
+.editprofile {
+  color: blue;
+}
+
+h4 {
+  line-height: 0.1em;
+}
+
+.container2 {
+  height: 150px;
+  width: 30%;
+  margin-left: 15%;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.educationbar {
+  background-color: black;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 2.5px;
+  color: white;
+}
+
+.bootcamp {
+  background-color: white;
+  border-style: solid;
+  border-color: gray;
+  border-top: none;
+  height: 130px;
+  font-weight: 200;
+  color: black;
+  padding: 20px;
+}
+
+.date {
+  color: grey;
+}
+
+.secondblock {
+  display: block;
+}
+
+.container3 {
+  height: 100px;
+  width: 20%;
+  margin-right: 15%;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.requestsbar {
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding-left: 20px;
+}
+
+#two {
+  height: 30px;
+  width: 30px;
+}
+
+.requestsnames {
+  background-color: white;
+  border-style: solid;
+  border-color: gray;
+  border-top: none;
+  height: 100px;
+  font-weight: 200;
+  color: black;
+  padding: 20px;
+}
+
+.toddbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.philbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+#toddphoto {
+  height: 50px;
+  width: 50px;
+}
+
+#philphoto {
+  height: 50px;
+  width: 50px;
+}
+
+#approve {
+  height: 30px;
+  width: 30px;
+}
+
+#reject {
+  height: 30px;
+  width: 30px;
+}
+
+.container4 {
+  height: 100px;
+  width: 20%;
+  margin-right: 15%;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.connectionsbar {
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding-left: 20px;
+}
+
+#connectionsamount {
+  height: 30px;
+  width: 30px;
+}
+
+.friendslist {
+  background-color: white;
+  border-style: solid;
+  border-color: gray;
+  border-top: none;
+  border-bottom: none;
+  height: 220px;
+  font-weight: 200;
+  color: black;
+  padding: 20px;
+}
+
+#adrienphoto {
+  height: 50px;
+  width: 50px;
+}
+
+#annephoto {
+  height: 50px;
+  width: 50px;
+}
+
+#alaynephoto {
+  height: 50px;
+  width: 50px;
+}
+
+#arryphoto {
+  height: 50px;
+  width: 50px;
+}
+
+.viewmorebar {
+  background-color: white;
+  border-color: gray;
+  border-top: none;
+  border-style: solid;
+  height: 20px;
+  padding: 20px;
+}
+
+.viewmore {
+  color: blue;
 }
