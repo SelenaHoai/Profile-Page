@@ -202,15 +202,18 @@ h4 {
   height: 50px;
   display: flex;
   align-items: center;
-  padding-left: 45px;
+  padding-left: 10px;
 }
 
-#two {
-  height: 30px;
-  width: 30px;
-  position: absolute;
-  top: 90px;
-  margin-left: -36px;
+.two {
+  background-color: gray;
+  color: black;
+  border-radius: 65px;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+  padding: 2.5px;
+  text-align: center;
 }
 
 .requestsnames {
@@ -271,15 +274,17 @@ h4 {
   background-color: black;
   color: white;
   height: 50px;
-  padding-left: 20px;
+  padding-left: 10px;
   display: flex;
   align-items: center;
 }
 
-#connectionsamount {
-  height: 30px;
-  width: 30px;
-  margin-right: 6px;
+.connectionsamount {
+  background-color: gray;
+  color: black;
+  border-radius: 50%;
+  padding: 2.5px;
+  margin-right: 5px;
 }
 
 .friendslist {
@@ -325,7 +330,4 @@ h4 {
   border-style: solid;
   height: 20px;
   padding: 20px;
-}
-
-.viewmore {
 }
