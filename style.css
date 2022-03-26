@@ -46,11 +46,6 @@ li {
   list-style-type: none;
 }
 
-/* a {
-  text-decoration: none;
-  color: white;
-} */
-
 .signout {
   flex: 1;
   margin-left: 40px;
@@ -59,11 +54,13 @@ li {
 }
 
 .btn {
-  background-color: darkturquoise;
+  background-color: teal;
   color: white;
+  font-size: medium;
   box-shadow: 5px 5px black;
   border: none;
   margin-right: 140px;
+  padding: 5px;
 }
 
 /*********** Main Section ***********/
