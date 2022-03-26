@@ -5,6 +5,7 @@
   margin: 0;
 }
 
+/*********** Navigation Bar ***********/
 .nav {
   background-color: #333333;
   color: white;
@@ -65,6 +66,8 @@ li {
   margin-right: 140px;
 }
 
+/*********** Main Section ***********/
+
 .main {
   display: flex;
   flex-direction: row;
@@ -74,10 +77,14 @@ li {
   /* padding: 5px; */
 }
 
+/*********** FIRST COLUMN ***********/
+
 .firstblock {
   display: block;
   margin-top: 20px;
 }
+
+/**** Profile box ****/
 
 .container1 {
   height: 300px;
@@ -130,20 +137,16 @@ li {
   width: 20px;
 }
 
-/* .editprofile {
-  color: blue;
-} */
-
 h4 {
   line-height: 1.3em;
 }
+
+/**** Education box ****/
 
 .container2 {
   height: 120px;
   width: 500px;
   margin: 50px 20px 20px 0px;
-  /* margin: 50px; */
-  /* padding: 20px; */
 }
 
 .educationbar {
@@ -177,6 +180,8 @@ h4 {
   color: grey;
 }
 
+/*********** SECOND COLUMN ***********/
+
 .secondblock {
   display: block;
   height: 600px;
@@ -184,10 +189,11 @@ h4 {
   margin-top: 20px;
 }
 
+/**** Connections Requests box ****/
+
 .container3 {
   height: 200px;
   width: 250px;
-  /* margin: 20px; */
 }
 
 .requestsbar {
@@ -197,7 +203,6 @@ h4 {
   display: flex;
   align-items: center;
   padding-left: 45px;
-  /* padding: 20px; */
 }
 
 #two {
@@ -207,10 +212,6 @@ h4 {
   top: 90px;
   margin-left: -36px;
 }
-
-/* .requeststext h4 {
-  margin: 30px;
-} */
 
 .requestsnames {
   background-color: white;
@@ -258,12 +259,12 @@ h4 {
   width: 30px;
 }
 
+/**** Your Connections box ****/
+
 .container4 {
   height: 100px;
   width: 250px;
   margin-top: 30px;
-  /* margin: 50px 0px 20px 20px; */
-  /* padding: 20px; */
 }
 
 .connectionsbar {
